@@ -1,0 +1,16 @@
+ip: "192.168.10.10"
+memory: 4096
+cpus: 2
+
+pubkey: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+ports:
+    - guest: 3000
+      host: 3000
+
+environments:
+    - key: APP_ENV
+      value: dev
