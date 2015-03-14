@@ -16,7 +16,7 @@ Slide-in multi-platform sandbox for development of [meteor](https://www.meteor.c
 2) install this sandbox to your meteor project root, start the environment and develop!
 
     cd myproject/
-    curl -f https://raw.githubusercontent.com/postrednik/meteor-vagrant/install.sh | sh
+    curl -f https://raw.githubusercontent.com/postrednik/meteor-vagrant/master/install.sh | sh
     vagrant up
 > Vagrantfile will be (re)created in the project root
 

@@ -3,14 +3,14 @@
 # vagrant platform for meteor - install script
 #
 # install it using terminal:
-#		curl -f https://raw.githubusercontent.com/postrednik/meteor-vagrant/install.sh | sh
+#		curl -f https://raw.githubusercontent.com/postrednik/meteor-vagrant/master/install.sh | sh
 #
 # homepage & documentation: https://github.com/postrednik/meteor-vagrant
 #
 # Copyright (c) 2015 Rostislav Postrednik
 # license: MIT
 
-INSTALL_URL="https://raw.githubusercontent.com/postrednik/meteor-vagrant"
+INSTALL_URL="https://raw.githubusercontent.com/postrednik/meteor-vagrant/master"
 VAGRANTFILE_URL="$INSTALL_URL/Vagrantfile"
 VAGRANTDIR_URL="$INSTALL_URL/vagrant"
 
