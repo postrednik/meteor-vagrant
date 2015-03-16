@@ -21,11 +21,11 @@ mkdir -p vagrant/
 curl "$VAGRANTDIR_URL/{config.yaml,meteor.rb,provision.sh,init-meteor.sh}" -o "vagrant/#1"
 
 echo "adding records to .gitignore"
-echo "
+cat >> .gitignore <<GITIGNORE
 .vagrant/
 vagrant/
 Vagrantfile
-" >> .gitignore
+GITIGNORE
 
 echo "installation completed"
 echo "now you can run: vagrant up"
