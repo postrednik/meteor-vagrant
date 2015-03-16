@@ -22,9 +22,9 @@ curl "$VAGRANTDIR_URL/{config.yaml,meteor.rb,provision.sh,init-meteor.sh}" -o "v
 
 printf 'adding records to .gitignore\n'
 cat >> .gitignore <<GITIGNORE
-.vagrant/
-vagrant/
-Vagrantfile
+/.vagrant/
+/vagrant/
+/Vagrantfile
 GITIGNORE
 
 printf 'installation completed\n'
